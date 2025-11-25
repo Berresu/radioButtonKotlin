@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun GenderExample() {
-    val genderOptions = listOf("Erkek", "Kadın", "Conner <3")
+    val genderOptions = listOf("Erkek", "Kadın", "Connor <3")
     var selectedGender by remember { mutableStateOf("Erkek") }
 
     Column(
